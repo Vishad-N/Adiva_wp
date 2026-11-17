@@ -1,0 +1,24 @@
+/*
+Theme Name:        ADiva
+Theme URI:         https://example.com/adiva
+Author:            ADiva
+Description:       Boho-luxe WooCommerce theme for ADiva — handcrafted handbags, clothing and accessories, made in India. Cream canvas, deep burgundy type, red accents, and the ADiva illustration woven in as quiet background art. Includes mega menu, product carousels, quick view, wishlist, load-more collections and a one-click store setup.
+Version:           1.0.0
+Requires at least: 6.3
+Tested up to:      6.7
+Requires PHP:      8.0
+License:           GNU General Public License v2 or later
+License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:       adiva
+Tags:              e-commerce, custom-menu, custom-logo, featured-images, theme-options, translation-ready, accessibility-ready
+
+WC requires at least: 8.0
+WC tested up to:      9.4
+*/
+
+/*
+ * All theme styles live in assets/css/ and are enqueued from inc/setup.php:
+ *   main.css         — design tokens, layout, header, footer, homepage, components
+ *   woocommerce.css  — shop, product, cart, checkout and account screens
+ * This file only carries the theme header WordPress reads.
+ */

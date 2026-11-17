@@ -1,0 +1,14 @@
+{
+  "name": "adiva-theme",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ADiva WordPress theme — Playwright layout tests only (the theme itself has no build step).",
+  "scripts": {
+    "preview": "php -S 127.0.0.1:8089 -t . dev-preview/router.php",
+    "test:visual": "playwright test -c playwright",
+    "test:report": "playwright show-report playwright/report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
